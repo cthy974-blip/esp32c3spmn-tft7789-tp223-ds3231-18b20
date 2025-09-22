@@ -1,0 +1,15 @@
+Xem các chân khai báo nếu nạp code xong k chạy 
+DS3231 là lại có 5 chân D, C, NC, +, _ 
+18B20 là dùng module hoặc dạng cắm, dùng dạng cắm thì phải nối thêm trở 4k7 vào chân DATA và VCC
+Các chân lần lượt là GND-DATA-VCC nhìn từ mặt có chữ 
+Màn hình là loại dùng ST7789 không có chân CS và không cần dùng chân BLK
+Code trên là dùng cho màn 240x240
+
+
+
+//phải chuyển ảnh qua dạng bitmap
+//dùng https://javl.github.io/image2cpp/ chuyển qua dạng bitmap
+//chỉnh  theo tỉ lệ màn hình 
+//dòng code output chọn 'arduino code'
+//dòng drawmode chọn 'horizontal-2bytes per pixel 565'
+//xong thì bấm generate code rồi copyở trong {...} sau đó dán vào các dòng code có ghi chú sẵn
