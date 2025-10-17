@@ -1,0 +1,29 @@
+//SƠ ĐỒ ĐẤU NỐI
+
+MÀN TFT      GPIO
+SDA(MOSI)     3
+SCLK          4
+RST           2
+DC            1
+CS           -1
+
+
+
+//18B20      
+VCC          3V3
+GND          DNG
+DATA         0
+
+
+//DS3231     
+VCC          3V3
+GND          GND
+D            8
+C            10
+
+
+//TP223  
+VCC         3V3
+GND         GND
+DATA        7    
+
